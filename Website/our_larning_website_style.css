@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kalam", cursive;
+}
+header {
+  background-color: rgba(0, 238, 255, 0.527);
+}
+.display {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+.logo_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.left-logo img {
+  max-width: 300px;
+  max-height: 120px;
+  border-radius: 10%;
+}
+.header_name {
+  font-size: 3.5rem;
+  color: rgb(202, 187, 49);
+}
