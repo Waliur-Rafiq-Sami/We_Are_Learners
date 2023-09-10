@@ -224,3 +224,116 @@ main {
   background-color: rgb(110, 165, 187);
 }
 /* Members_Container_END Hare  */
+/* Footer Starts Hare  */
+
+.contact_container {
+  background-color: #050d1b;
+  min-height: 80vh;
+}
+.contact_contant {
+  margin: 0 auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+.message {
+  color: #7336b9;
+  text-align: left;
+  font-size: 2.5rem;
+  margin: 12rem 0 2rem;
+  font-family: "EB Garamond", serif;
+}
+.link_contact h2 {
+  text-align: center;
+  font-size: 6rem;
+  color: #43ecde;
+  margin-bottom: 6rem;
+}
+.top_link {
+  gap: 15rem;
+}
+.bottom_link {
+  gap: 5rem;
+  margin-top: 6rem;
+}
+.link {
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+.link i span {
+  color: rgba(238, 207, 166, 0.87);
+  font-size: 3rem;
+  transition: 0.6s ease-in-out;
+
+  font-family: "EB Garamond", serif;
+}
+.link i {
+  color: #3092b3;
+  font-size: 5rem;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+.bottom_link span {
+  margin-left: 1rem;
+  transition: 0.5s ease-in-out;
+}
+.link i:hover span {
+  transition: 0.6s ease-in-out;
+  color: rgb(77, 114, 235);
+  transition: 0.5s ease-in-out;
+}
+.link i:hover {
+  transition: transform 0.5s;
+
+  opacity: 0.8;
+}
+.link i::after {
+  content: "";
+  width: 100%;
+  height: 0.2rem;
+  position: absolute;
+  background: #43ecde;
+  left: 0;
+  bottom: -5px;
+  transition: transform 1s;
+  transform: scaleX(0);
+}
+.link i:hover::after {
+  transform: scaleX(1);
+  transition: transform 1s;
+}
+/* Footer END Hare  */
+.made {
+  font-size: 4rem;
+  background-color: #0a1331;
+}
+.footer_img,
+.footer_img img {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.footer_contant {
+  display: flex;
+  gap: 1rem;
+  align-items: end;
+}
+.f_con {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.f-name {
+  color: #4d7ec7;
+}
+.footer_text {
+  font-size: 2.4rem;
+  color: #6444af;
+}
