@@ -205,3 +205,16 @@ main {
   height: 180px;
 }
 /* Classes Section SEC_2 End Hare  */
+/* Members_Container_starts Hare  */
+.squar .img_class {
+  width: 320px;
+  height: 320px;
+  margin-bottom: 2rem;
+}
+#members {
+  background-color: #0e274d;
+}
+.menbers_container h4 {
+  padding: 2rem 0 3rem;
+}
+/* Members_Container_END Hare  */
