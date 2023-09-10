@@ -1,0 +1,77 @@
+/* universial tag  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  /* font-family: "Nanum Gothic Coding", cursive; */
+  font-family: "Nunito Sans", sans-serif;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.navigation {
+  height: 100vh;
+  background-color: rgb(10, 30, 44);
+  padding: 20rem 0 0 0;
+}
+.header_image,
+.header_image img {
+  width: 300px;
+  height: 360px;
+  border-radius: 50%;
+}
+.nav_contant {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bg_contant {
+  color: rgb(223, 208, 79);
+  font-size: 6rem;
+}
+.header_contant h1 {
+  font-size: 3rem;
+  margin: 2rem;
+}
+.name_contant {
+  font-size: 5rem;
+  color: rgb(79, 223, 187);
+}
+.header_contant h2 {
+  font-size: 4rem;
+  color: rgb(109, 209, 223);
+}
+.header_contant h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /* Adjust as needed */
+  animation: typing 8s steps(40, end), blink-caret 1s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
