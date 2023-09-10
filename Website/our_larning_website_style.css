@@ -337,3 +337,51 @@ main {
   font-size: 2.4rem;
   color: #6444af;
 }
+/* Media ---------------------- */
+
+@media (max-width: 786px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 32%;
+  }
+  .typewriter p {
+    font-size: 5rem;
+  }
+  nav ul li {
+    margin: -0.5rem;
+    font-size: 2.3rem;
+  }
+  .logo ul {
+    gap: 0rem;
+  }
+
+  .message p {
+    font-size: 4rem;
+  }
+  .link_contact h2 {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  .top_link {
+    margin-bottom: 15rem;
+    gap: 15rem;
+  }
+  footer {
+    height: 60vh;
+  }
+  .f_con {
+    flex-direction: column-reverse;
+    align-items: baseline;
+  }
+  .f_con .footer_contant {
+    padding: 5rem 0;
+  }
+  .f_con .footer_text {
+    font-size: 3rem;
+    padding: 2rem 0;
+  }
+}
