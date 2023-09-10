@@ -34,7 +34,7 @@ header {
   background-color: #0089b7;
   position: fixed;
   width: 100%;
-  box-shadow: 3px 3px 5px rgb(138, 136, 136);
+  box-shadow: 2px 2px 3px rgb(41, 41, 41);
   z-index: 100;
 }
 nav {
@@ -216,5 +216,11 @@ main {
 }
 .menbers_container h4 {
   padding: 2rem 0 3rem;
+}
+#members h3 {
+  color: rgb(16, 32, 151);
+}
+#members .classes_contant {
+  background-color: rgb(110, 165, 187);
 }
 /* Members_Container_END Hare  */
